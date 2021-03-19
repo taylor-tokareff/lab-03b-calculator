@@ -28,6 +28,8 @@ main {
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
+    background-image: url('../images/calc.jpeg');
+    background-size: 5%;
 }
 
 section {
@@ -115,5 +117,96 @@ footer {
     80% {
         transform: rotate3d(10, 10, 10, 50deg) scale(1);
     }
+
+  }
+
+  #add-box {
+      display: flex;
+      border: 100%;
+      border-color: black;
+      border-radius: 5px;
+      background-color: rgb(0, 255, 213);
+      padding: 2%;
+      width: 100%;
+  }
+
+  .inputs {
+      color: crimson;
+      font-size: 155%;
+      background-color: black;
+
+  }
+
+  .answers {
+      display: flex;
+      justify-self: space-around;
+      justify-content: center;
+      align-items: center;
+      color: darkmagenta;
+      font-size: 155%;
+      font-weight: bolder;
+      padding: 1%;
+
+  }
+
+  .buttons {
+      background-color: darkslategrey;
+      font-family: 'Courier New', Courier, monospace;
+      color: black;
+      font-weight: bold;
+
+  }
+
+  .symbols{
+      font-size: 155%;
+      font-family: 'Times New Roman', Times, serif;
+
+
+  }
+
+  #sub-box {
+    display: flex;
+    border: 100%;
+    border-color: black;
+    border-radius: 5px;
+    background-color: rgb(0, 255, 213);
+    padding: 2%;
+    width: 100%;
+
+  }
+
+  #div-box {
+    display: flex;
+    border: 100%;
+    border-color: black;
+    border-radius: 5px;
+    background-color: rgb(0, 255, 213);
+    padding: 2%;
+    width: 100%;
+
+
+  }
+
+  #mult-box {
+    display: flex;
+    border: 100%;
+    border-color: black;
+    border-radius: 5px;
+    background-color: rgb(0, 255, 213);
+    padding: 2%;
+    width: 100%;
+
+
+  }
+
+  #title {
+    display: flex;
+    justify-self: space-around;
+    justify-content: center;
+    align-items: center;
+
+
+
+
 
   }
