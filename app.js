@@ -1,18 +1,11 @@
-const addInput1 = document.getElementById('add-1-input');
-const addInput2 = document.getElementById('add-2-input');
+import {
+    handleAddClick
+} from "./handlers.js"
+
 const addButton = document.getElementById('add');
-const addAnswer = document.getElementById('add-sum');
+;
 
-addButton.addEventListener('click', () => {
-
-const value1 = Number(addInput1.value);
-const value2 = Number(addInput2.value);
-
-const sum = value1 + value2;
-
-addAnswer.textContent = sum;
-
-})
+addButton.addEventListener('click', handleAddClick);
 
 
 const subInput1 = document.getElementById('sub-1-input');
